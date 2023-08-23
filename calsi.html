@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            background-image: linear-gradient(rgb(170, 53, 127),rgb(93, 184, 93),rgb(94, 157, 185),yellow,rgb(111, 111, 215),orange,rgb(187, 38, 38));
+            padding: 10px;
+            border-radius: 4px;
+            margin: auto;
+            text-align: center;
+            width: 40%;
+        }
+
+        h2{
+            border: 2px solid black;
+            background-image: linear-gradient(orange,white,green);
+            background-color: whitesmoke;
+            text-align: center;
+            margin: auto;
+            color: black;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Calculator</h2>
+        <br><br> 
+        <label for="">Number 1</label>
+        <input type="text" id="input 1">
+        <button onclick="add()">+</button>
+        <button onclick="sub()">-</button>
+        <br><br>
+
+        <label for="">Number 2</label>
+        <input type="text" id="input 2">
+        <button onclick="multi()">*</button>
+        <button onclick="div()">/</button>
+        <br><br>
+
+        <label for="">Result</label>
+        <input type="text" id="output">
+        <button onclick="clr()">Clear</button>
+
+    </div>
+
+    <script src="./Calsi.js">
+
+    </script>
+</body>
+</html>
